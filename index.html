@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Delights</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-sans flex flex-col min-h-screen bg-slate-300">
+
+    <!-- Navigation -->
+    <nav class="shadow-lg bg-orange-200">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4 ">
+                <div class="text-xl font-semibold">Foodie Delights</div>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Home</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">About</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Menu</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section -->
+    <section class="bg-cover bg-center h-screen flex items-center"
+        style="background-image: url('https://blog.travelkhana.com/tkblog/wp-content/uploads/sites/2/2023/02/A-to-Z-Food-1024x683.jpg');">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold text-white">Welcome to Foodie Delights</h1>
+            <p class="mt-4 text-xl text-white">Explore our delicious menu and satisfy your cravings!</p>
+        </div>
+    </section>
+
+    <!-- Featured Items -->
+    <section class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-8 text-center">Featured Items</h2>
+            <div class="flex flex-col md:flex-row md:justify-center md:items-start md:space-x-8">
+
+                <!-- Item no 1 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347382/india-food-ras-malai/india-food-ras-malai-1120x732.jpg" alt="Food" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-xl mb-2">Dish - 1</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            maximus vehicula fermentum.</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-gray-600">100 Rs.</span>
+                            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Item no 2 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice-500x375.jpg" alt="Food" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-xl mb-2">Dish - 2</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            maximus vehicula fermentum.</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-gray-600">299 Rs.</span>
+                            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item no 3 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2019/12/Pav-Bhaji.jpg" alt="Food" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-xl mb-2">Dish - 3</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            maximus vehicula fermentum.</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-gray-600">199 Rs.</span>
+                            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item no 4 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <img src="https://img.freepik.com/premium-photo/dhokla-is-veg-food-snack-breakfast-item-from-indian-state-gujarat_466689-68634.jpg" alt="Food" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-xl mb-2">Dish - 4</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            maximus vehicula fermentum.</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-gray-600">99 Rs.</span>
+                            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Specialties -->
+    <section class="py-16 bg-gray-100 flex-1">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-8 text-center">Our Specialties</h2>
+            <div class="flex flex-col md:flex-row md:justify-center md:items-start md:space-x-8">
+              
+                <!-- 1 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <img src="https://media.cnn.com/api/v1/images/stellar/prod/140430115517-06-comfort-foods.jpg?q=w_1110,c_fill" alt="Specialty"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-xl mb-2">Specialty Item</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            maximus vehicula fermentum.</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-gray-600">599 Rs.</span>
+                            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <img src="https://www.holidify.com/images/cmsuploads/compressed/Featured-image-masala-dosa-recipe_20181227134705.jpg" alt="Specialty"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-xl mb-2">Specialty Item</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            maximus vehicula fermentum.</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-gray-600">550 Rs.</span>
+                            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <img src="https://www.fabhotels.com/blog/wp-content/uploads/2022/07/fafda-jalebi-1.jpeg" alt="Specialty"
+                        class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-xl mb-2">Specialty Item</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            maximus vehicula fermentum.</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-gray-600">199 Rs.</span>
+                            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Order
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 flex-1">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-8 text-center">Testimonials</h2>
+            <div class="flex flex-col md:flex-row md:justify-center md:items-start md:space-x-8">
+        
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <div class="p-6">
+                        <p class="text-gray-700">"The food here is amazing! I keep coming back for more!"</p>
+                        <div class="mt-4">
+                            <p class="text-gray-600">- ABC</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <div class="p-6">
+                        <p class="text-gray-700">"The food here is wow...! I keep coming back for sure!"</p>
+                        <div class="mt-4">
+                            <p class="text-gray-600">- POE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <div class="p-6">
+                        <p class="text-gray-700">"I've become a regular because I just can't resist the deliciousness here!"</p>
+                        <div class="mt-4">
+                            <p class="text-gray-600">- PQR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <div class="p-6">
+                        <p class="text-gray-700">"This place never disappoints! The flavors are just unbeatable"</p>
+                        <div class="mt-4">
+                            <p class="text-gray-600">- XYZ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden mb-8 md:mb-0" style="flex: 1;">
+                    <div class="p-6">
+                        <p class="text-gray-700">"Every bite is like a little piece of heaven. I'm hooked!"</p>
+                        <div class="mt-4">
+                            <p class="text-gray-600">- ASS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Foodie Delights. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
